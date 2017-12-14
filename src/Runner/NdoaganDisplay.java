@@ -5,6 +5,7 @@ import javax.swing.JPanel;
 
 public class NdoaganDisplay extends JFrame{
 	
+	private NDoaganLogic ndoaganLogic;
 	
 	
 	public NdoaganDisplay() {
@@ -14,6 +15,10 @@ public class NdoaganDisplay extends JFrame{
         JPanel root = new JPanel();
         setContentPane(root);
         setVisible(true);
+        
+        ndoaganLogic = new NDoaganLogic();
+        
+        
         
         
 	}

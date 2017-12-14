@@ -14,5 +14,7 @@ public class NdoaganDisplay extends JFrame{
         JPanel root = new JPanel();
         setContentPane(root);
         setVisible(true);
+        
+        
 	}
 }
